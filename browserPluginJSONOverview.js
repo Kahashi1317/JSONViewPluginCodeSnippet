@@ -10,7 +10,7 @@ const data = JSON.parse(this.responseText) //variable namens 'data'
 console.log(data) //console-output der JSON
 
 var ul = document.createElement('ul') // Creates eine unorderedList mit a ul-tag..
-ul.setAttribute('class'. 'notes')
+ul.setAttribute('class', 'notes')
 
 data.forEach(function(note) { /*..and then adds 1 li-tag foreach note
   Only the content field of each note becomes the contents of the li-tag.
